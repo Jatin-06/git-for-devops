@@ -3,13 +3,13 @@
 This repository is for understanding Git Concept for Devops!!!
 
 This includes:
-commands
+- commands
 
-Videos
+- Videos
 
-Tutorials
+- Tutorials
 
-projects
+- projects
 
 
 

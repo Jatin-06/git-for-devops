@@ -1,0 +1,122 @@
+24/10/24
+In Local: create folder git-for-devops on local ec2==> git init, add files, commit
+
+In Remote :create repository git-for-devops===> here you create command.md
+
+now in local create new folder mkdir GitHub, so here you can clone Remote repository i.e git-for-devops (Note do not git init)
+
+here you can create README.md
+
+
+
+
+
+=======================================================================================================
+
+create folder and hit git init
+you create more file and git add .
+git rm --cached filename     //it will take file again back to unstage
+
+git commit -m ""messaged"
+git restore filename    //to restore deleted file
+
+
+Branch
+
+git checkout -b dev   //new branch is created and checkout out as well.
+
+git checkout master   //you will switch to master branch from dev branch.
+git log --oneline
+
+command.md   //its a called markdown file i.e md
+put this prompt for chatgpt
+remove all numbers from git commands, create a command.md file in such a way that the topic and the related git command are given
+Share it in a markdown format
+Remove the copy code from the output
+shared the markdown code for the same with heading etc, without the copy code option
+
+OR create a prompt so that i can get the above output as final output with input as histroy of commands
+
+git remote -v   //will tell you from where the code came from its origin
+
+=================================================================================================================
+ssh git to use to push
+
+generate key i.e fire ssh-keygen
+so add public key in GitHub, goto setting, ssh-gpg key->create ssh and paste public key.
+
+git remote -v
+git remote set-url origin paste here ssh url grom GitHub
+
+add file make some changes git add ., commit and push done
+
+make some change in remote repo.
+then you need to git pull origin main
+
+=====>>>Branching Strategy
+
+we have 3 branch main, staging, dev branch
+
+so suppose you are on dev branch and having 3 flies. And now
+you want to go in Staging branch, so command is
+
+===>git checkout staging  //now you are in staging branch
+
+
+but 3 files in dev is not merge yet. so currently you are in staging branch and you want to add 3 files from dev to staging
+create folder and hit git init
+you create more file and git add .
+git rm --cached filename     //it will take file again back to unstage
+
+git commit -m ""messaged"
+git restore filename    //to restore deleted file
+
+
+Branch
+
+git checkout -b dev   //new branch is created and checkout out as well.
+
+git checkout master   //you will switch to master branch from dev branch.
+git log --oneline
+
+command.md   //its a called markdown file i.e md
+put this prompt for chatgpt
+remove all numbers from git commands, create a command.md file in such a way that the topic and the related git command are given
+Share it in a markdown format
+Remove the copy code from the output
+shared the markdown code for the same with heading etc, without the copy code option
+
+OR create a prompt so that i can get the above output as final output with input as histroy of commands
+
+git remote -v   //will tell you from where the code came from its origin
+
+ssh git to use to push
+
+generate key i.e fire ssh-keygen
+so add public key in GitHub, goto setting, ssh-gpg key->create ssh and paste public key.
+
+git remote -v
+git remote set-url origin paste here ssh url grom GitHub
+
+add file make some changes git add ., commit and push done
+
+make some change in remote repo.
+then you need to git pull origin main
+
+=====>>>Branching Strategy
+
+we have 3 branch main, staging, dev branch
+
+so suppose you are on dev branch and having 3 flies. And now
+you want to go in Staging branch, so command is
+
+===>git checkout staging  //now you are in staging branch
+
+
+but 3 files in dev is not merge yet. so currently you are in staging branch and you want to add 3 files from dev to staging
+
+===> git merge dev //so now all data transfer from dev to staging.
+
+==> git push origin staging //new branch you will see in GitHub
+
+

@@ -117,6 +117,7 @@ but 3 files in dev is not merge yet. so currently you are in staging branch and 
 
 ===> git merge dev //so now all data transfer from dev to staging.
 
-==> git push origin staging //new branch you will see in GitHub
+==> git push origin staging //new branch you will see in GitHub and you will compare and pull request.
+so if you want to add reviewer, goto setting, collaborater, add user, they can reveiw and approve merge request. you will see staging branch as well.
 
 

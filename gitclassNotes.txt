@@ -91,7 +91,8 @@ OR create a prompt so that i can get the above output as final output with input
 git remote -v   //will tell you from where the code came from its origin
 
 ssh git to use to push
-
+cd .ssh
+ls
 generate key i.e fire ssh-keygen
 so add public key in GitHub, goto setting, ssh-gpg key->create ssh and paste public key.
 
@@ -103,6 +104,7 @@ add file make some changes git add ., commit and push done
 make some change in remote repo.
 then you need to git pull origin main
 
+OR 
 =====>>>Branching Strategy
 
 we have 3 branch main, staging, dev branch
